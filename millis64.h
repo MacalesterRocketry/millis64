@@ -12,11 +12,11 @@
 #include "Arduino.h"
 
 // call once per 20 days
-inline uint64_t millis64();
+uint64_t millis64();
 
 // call once per 30 minutes.
-inline uint64_t micros64();
+uint64_t micros64();
 
 // just aliases for the standard functions
-inline uint32_t millis32();
-inline uint32_t micros32();
+uint32_t millis32();
+uint32_t micros32();
